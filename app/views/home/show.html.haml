@@ -1,0 +1,8 @@
+%h1 Home#:show
+%p Find me in app/views/home/:show.html.haml
+%script
+  $(function() {
+    // QuickStart is the app name
+    window.router = new QuickStart.Routers.PostsRouter({users: <%= @users.to_json.html_safe -%>});
+    Backbone.history.start();
+  });
