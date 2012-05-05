@@ -1,0 +1,24 @@
+
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: collector_dev 
+  username: root
+  password: 
+  socket: /tmp/mysql.sock
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: collector_test 
+  username: root
+  password: 
+  socket: /tmp/mysql.sock
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: collector_prod
+  username: root
+  password: 
+  socket: /tmp/mysql.sock
