@@ -2,7 +2,7 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: collector_dev 
+  database: quick_start_dev 
   username: root
   password: 
   socket: /tmp/mysql.sock
@@ -10,7 +10,7 @@ development:
 test:
   adapter: mysql2
   encoding: utf8
-  database: collector_test 
+  database: quick_start_test 
   username: root
   password: 
   socket: /tmp/mysql.sock
@@ -18,7 +18,7 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: collector_prod
+  database: quick_start_prod
   username: root
   password: 
   socket: /tmp/mysql.sock
