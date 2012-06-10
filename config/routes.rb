@@ -1,8 +1,9 @@
 QuickStart::Application.routes.draw do
 
-  get "home/show"
+  get "home", :controller => "home", :action => "show"
 
   resources :user_session
+  resources :users
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

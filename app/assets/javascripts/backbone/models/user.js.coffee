@@ -1,5 +1,7 @@
 class QuickStart.Models.User extends Backbone.Model
   paramRoot: 'user'
+  url: ->
+    "/users/#{@id}.json"
 
   defaults:
     login: null
